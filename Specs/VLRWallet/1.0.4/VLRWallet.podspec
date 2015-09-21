@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Rezzza" => "contact@verylastroom.com" }
   s.platform     = :ios, "6.0"
-  s.source       = { :git => "https://github.com/rezzza/VLRCreditCard.git", :tag => "1.0.4" }
+  s.source       = { :git => "git@github.com:rezzza/VLRCreditCard.git", :tag => "1.0.4" }
   s.source_files = "Files/*.{h,m}"
   s.resources    = "Resources/*"
   s.requires_arc = true
